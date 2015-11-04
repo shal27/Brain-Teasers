@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/rule"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="FIND THE PAIRS"
+        android:textSize="20dp"
+        android:textStyle="bold" 
+        android:fontFamily="Nexa Rust"
+        android:textColor="#0000ff"
+       />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:layout_marginTop="40dp"
+       android:textSize="20dp"
+       android:textColor="#000000"
+        android:text="1.You have to find the set of 12 pairs which matches the fruits in the matrix in a time limit of 1 minute.
+                           2.Find a pair by tapping on buttons in matrix and if found you are one step ahead of your success.
+                                              3.Press the button below to begin!All the best!" 
+       />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:text="I Am Ready!" />
+
+</LinearLayout>
